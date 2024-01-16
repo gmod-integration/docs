@@ -1,0 +1,8 @@
+{
+    "label": "Command",
+    "position": 13,
+    "link": {
+        "type": "generated-index",
+        "description": "All commands of the bot with their description and usage."
+    }
+}
