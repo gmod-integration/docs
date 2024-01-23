@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Important
+# Disclaimer
 
 ## Discord Bot and Hosting Clarification
 
@@ -14,13 +14,37 @@ Before proceeding with the integration process, it's crucial to understand key d
 - The bot utilizes Gmod Integration's API to establish seamless communication and synchronization between Discord and Garry's Mod.
 - Acting as an intermediary, the API ensures effective integration and efficient data transfer.
 
-## Potential Security Issue: Infrastructure Compromise
+## Infrastructure Compromise
 
-In the unfortunate event that our infrastructure or services are compromised, it's essential to consider the potential far-reaching consequences, such as unauthorized access to servers. If an attacker gains unauthorized access to our infrastructure, they might potentially exploit this to gain root access to servers utilizing Gmod Integration. This could lead to significant security risks, including data breaches, server manipulation, and other malicious activities.
+In the unfortunate event that our infrastructure or services are compromised, it's essential to consider the potential far-reaching consequences, such as unauthorize access with total control over your Garry's Mod server and Discord Guild.
+
+To limit the impact of a potential compromise, we have implemented a series of security measures to protect your data and infrastructure.
+
+In the event of a compromise, we can:
+
+- Disable the Discord Bot.
+- Reset the Discord Bot Token.
+- Disable the Gmod Integration API.
+- Disable the Gmod Integration Websocket.
+- Disable the Gmod Integration Admin Panel.
+- Reset all server token.
+- Kill all user session.
+
+In case of a major compromise, we can:
+
+- Delete production database.
+- Delete production server.
+- Remove DNS record.
 
 We take the security of our infrastructure seriously and implement robust measures to prevent unauthorized access. However, it's important to recognize that no system can be entirely immune to determined attackers. We encourage server administrators to stay vigilant, keep their systems up-to-date with security patches, and monitor for any unusual activities.
 
-We are committed to promptly addressing any security incidents and continuously improving our security practices to safeguard against such threats.
+## Disaster Recovery
+
+In the event of a disaster, we have a comprehensive disaster recovery plan in place to ensure the continuity of our services. Our disaster recovery plan includes:
+
+- Regularly backing up our database and other critical data.
+- Storing backups in a secure location.
+- Testing our disaster recovery plan to ensure it's effective.
 
 ## Data Privacy and Security
 

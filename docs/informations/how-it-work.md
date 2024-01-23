@@ -12,7 +12,7 @@ As you know, we provide an all-in-one solution, you don't need to host the bot o
 
 ### Garry's Mod Addon
 
-The garry's mod addon is the key of our service, it's the link between your server and our service through our API / Websocket. This is the only thing you need to install, you can find the installation guide [here](/category/getting-started).
+The garry's mod addon is the key of our service, it's the link between your server and our service through our API / Websocket. This is the only thing you need to install, you can find the installation guide [here](/getting-started/installation).
 
 ## Infrastructure
 
@@ -62,5 +62,3 @@ The server is backup every day, the backup is store in a other server to avoid d
 ### Server Monitoring
 
 The server is monitored by [UptimeRobot](https://uptimerobot.com/), [NetData](https://www.netdata.cloud/) and [Prometheus](https://prometheus.io/).
-
-### Server Logs

@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -66,70 +66,70 @@ const config = {
         },
         items: [
           {
-              href: 'https://gmod-integration.com/guilds',
-              label: 'Admin Panel',
-              position: 'right',
+            href: 'https://gmod-integration.com/guilds',
+            label: 'Admin Panel',
+            position: 'right',
           },
           {
-              href: 'https://gmod-integration.com/invite',
-              label: 'Invite Bot',
-              position: 'right',
+            href: 'https://gmod-integration.com/invite',
+            label: 'Invite Bot',
+            position: 'right',
           },
           {
-              href: 'https://gmod-integration.com/workshop',
-              label: 'Workshop',
-              position: 'right',
+            href: 'https://gmod-integration.com/workshop',
+            label: 'Workshop',
+            position: 'right',
           },
           // {
           //   type: 'localeDropdown',
           // },
         ],
       },
-    //   footer: {
-    //     style: 'dark',
-    //     links: [
-    //       {
-    //         title: 'Docs',
-    //         items: [
-    //           {
-    //             label: 'Tutorial',
-    //             to: '/docs/intro',
-    //           },
-    //         ],
-    //       },
-    //       {
-    //         title: 'Community',
-    //         items: [
-    //           {
-    //             label: 'Stack Overflow',
-    //             href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-    //           },
-    //           {
-    //             label: 'Discord',
-    //             href: 'https://discordapp.com/invite/docusaurus',
-    //           },
-    //           {
-    //             label: 'Twitter',
-    //             href: 'https://twitter.com/docusaurus',
-    //           },
-    //         ],
-    //       },
-    //       {
-    //         title: 'More',
-    //         items: [
-    //           {
-    //             label: 'GitHub',
-    //             href: 'https://github.com/facebook/docusaurus',
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //     copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    //   },
-    //   prism: {
-    //     theme: prismThemes.github,
-    //     darkTheme: prismThemes.dracula,
-    //   },
+      //   footer: {
+      //     style: 'dark',
+      //     links: [
+      //       {
+      //         title: 'Docs',
+      //         items: [
+      //           {
+      //             label: 'Tutorial',
+      //             to: '/docs/intro',
+      //           },
+      //         ],
+      //       },
+      //       {
+      //         title: 'Community',
+      //         items: [
+      //           {
+      //             label: 'Stack Overflow',
+      //             href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //           },
+      //           {
+      //             label: 'Discord',
+      //             href: 'https://discordapp.com/invite/docusaurus',
+      //           },
+      //           {
+      //             label: 'Twitter',
+      //             href: 'https://twitter.com/docusaurus',
+      //           },
+      //         ],
+      //       },
+      //       {
+      //         title: 'More',
+      //         items: [
+      //           {
+      //             label: 'GitHub',
+      //             href: 'https://github.com/facebook/docusaurus',
+      //           },
+      //         ],
+      //       },
+      //     ],
+      //     copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      //   },
+      //   prism: {
+      //     theme: prismThemes.github,
+      //     darkTheme: prismThemes.dracula,
+      //   },
     }),
 };
 
