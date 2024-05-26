@@ -6,13 +6,16 @@ sidebar_position: 2
 
 ## Create Server
 
-To connect you guild to you gmod server you will need to create a new server for your guild by clicking the `Create Server` of the [servers list](https://gmod-integration.com/config/servers).
+To connect you guild to you gmod server, you will need to create a new server for your guild by clicking the `Create 
+Server` of the [server list](https://gmod-integration.com/dashboard/guilds/:guildID/config/servers).
 
 ![Alt text](image-3.png)
 
 ## Get Server Token & ID
 
-On the same page now click on server you just created, you will see the [server config](https://gmod-integration.com/config/server/settings) page with the server token and id, you will to click on the `Click to Show` button to show the token & id.
+On the same page now click on server you just created, you will see the [server config](https://gmod-integration.
+com/dashboard/guilds/:guildID/config/servers/:serverID) page with the server token and id, you will to 
+click on the `Click to Show` button to show the token & id.
 
 ![Alt text](image-5.png)
 

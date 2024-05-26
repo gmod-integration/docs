@@ -66,7 +66,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://gmod-integration.com/guilds',
+            href: 'https://gmod-integration.com/dashboard/guilds',
             label: 'Admin Panel',
             position: 'right',
           },
