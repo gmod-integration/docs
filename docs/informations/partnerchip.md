@@ -10,25 +10,18 @@ Partnerchip program our a way to help us to grow up and to help you to grow up. 
 
 ## What you get ?
 
-### Classic Partnerchip
-
 - Acces to the partnerchip support.
 - Your server will be listed on our website.
 - You will have a custom channel on our discord server.
 - A special role on our discord server.
 - Help to setup & configure the service.
-
-### Premium Partnerchip
-
-- All the classic partnerchip advantage.
 - The premium version of our service for free.
 
 ## Condition
 
 - Not been banned from our service or our discord.
 - Active the verification system on your discord server.
-- You need to have a discord server with at least 100 members. (For the classic partnerchip)
-- You need to have a discord server with at least 500 members. (For the premium partnerchip)
+- You need to have a discord server with at least 500 members and +- 25 recurring players on your server.
 
 ## How to apply ?
 
