@@ -152,20 +152,113 @@ Experience the Future of Gmod Server Management:
 
 Gmod Integration empowers you to create a thriving, secure, and engaged Gmod community, all without the need for hosting. Whether you're running a casual server with friends or a bustling gaming community, our feature-rich Discord bot is your indispensable companion.
 
+# whats gmod integration
+
+Gmod Integration is a service that allows you to connect your Garry's Mod server to your Discord server. It allows you to synchronize your players' nicknames, chat, add verify system, and server status with your Discord to keep your community in touch, it's a great way to keep your community active and engaged. We allready have more then 47 000 users on more then 300 guilds, will you be the next?
+
+# Try Before Buying
+
+Not sure if Gmod Integration is right for you? No problem! You can try our service for free before making a purchase. Simply follow the classic installation process, and you'll have access to all free features. If you're satisfied with the service, you can upgrade to the premium version to unlock additional features and support the project.
+
+# Continuous Development
+
+You have a say in the future of Gmod Integration! We're constantly developing new features and improvements to enhance your experience. Your feedback is invaluable to us, so don't hesitate to share your thoughts and suggestions. Together, we can shape the future of Gmod Integration and create a vibrant, engaging community.
+
+# Beta Version
+
+This is a beta version of Gmod Integration, which means that some bugs may occur. We're working hard to fix any issues and improve the service. Your feedback is essential to help us identify and resolve bugs, so please don't hesitate to report any problems you encounter. We appreciate your patience and understanding as we work to deliver the best possible experience.
+
 # Informations
 
-Hey, you probably have or develop a Garry's Mod server, and you probably have a discord guild for your server community.
-So you probably know how hard knowing who is who, who is banned 
+<!-- Hey, you probably have or develop a Garry's Mod server, and you probably have a discord guild for your server community. So you probably know how hard knowing who is who, who is banned -->
 
-## Our Solution
+Hey if your here, it's probably because you have a Garry's Mod server and a discord guild for your server community. You probably know how hard it is to know who is who, who is banned, who is a troll, who is a good player, etc... That's why we have created Gmod Integration, a service that allows you to connect your Garry's Mod server to your Discord guild. It allows you to synchronize your players' nicknames, chat, add verify system, and server status with your Discord to keep your community in touch, it's a great way to keep your community active and engaged. We allready have more then 47 000 users on more then 300 guilds, will you be the next?
 
--   No hosting required
--   Easy to use
--   Simple to install
--   Full UI for the configuration
--   Modulable, add custom features
--   Multilanguage
--   Multiserver for the same discord guild
--   99.9% uptime
--   no monthly fee
--
+## Why Gmod Integration ?
+
+- **Easy to use**: No hosting required, just invite the bot to your discord guild and add the workshop content to your server.
+- **Multiserver**: You can create the number of server you want for the same discord guild.
+- **Full UI**: We have a full UI for the configuration, you don't have to use command line to configure the bot.
+- **Modulable**: You can add custom features to the bot, like a custom command, a custom module, etc...
+- **Multilanguage**: The bot is available in multiple languages, like English, French, German, Spanish, Russian, etc...
+- **No monthly fee**: You don't have to pay a monthly fee to use the bot, you just have to pay for the premium features.
+- **99.9% uptime**: We have a 99.9% uptime, you don't have to worry about the bot being offline.
+- **New Features**: We are always adding new features to the bot every week, you can check the our discord server to see the new features.
+
+## Players
+
+### Profile
+
+Don't be confused about who is who, the player profile allow you to see the steam profile of a discord user and when he was verified.
+
+### Statistics
+
+Allow player to flex with their stats, you can see the number of kills, deaths, playtime, rank, connection time, last connection time, etc...
+
+### Leaderboard
+
+Add competition to your server with the leaderboard, you can see the top players on your server, you can choose the criteria of the leaderboard, like the number of kills, deaths, playtime, etc...
+
+## Guilds
+
+### Links
+
+Guild Links are like shortcuts to ressources, for example if someone ask for the server collection or CSS Content you don't have to search manualy the link, you can just `/link collection` or `/link css` and the bot will send the link.
+
+### Verifications
+
+Force your players to link their discord account to their steam account, this way you can verify the identity of your players, and restrict access to your discord guild to only verified players or just giving them a special role.
+
+### Auto Roles
+
+Skip 3rd party bot to give roles to your players, you can use the bot to give roles to your players when they join your discord guild.
+
+## Servers
+
+Create the number of server you want for the same discord guild, you can have a server for each gamemode, each map, each language, etc...
+
+### Status
+
+Server Status is a auto-refresh message that show the status of your server, like the number of players, the map, the game mode, the uptime, the server status, etc...
+
+### Status Buttons
+
+You can add buttons to the server status message, like "Shop", "Workshop", "Vote", etc...
+
+### Chat Relay
+
+Chat Relay is a way to bridge the chat between your server and your discord guild, so your users can talk to each other without being on the same platform. You can choose the channels that you want to bridge, the direction of the bridge (from discord to server, from server to discord or both) and apply custom rules like skipping commands, anonymizing /ano, skip message for specific users groups ect...,
+
+### Players Database
+
+Keep an eye on your players with the players database, you can see the player name, steam id, rank, connection time, last connection time, etc...
+
+### Sync Role / User Group
+
+Don't worry about forgetting to give a role to a player, you can sync the roles of your discord guild with the ranks of your server, this way you can give the same role to a player on your server and on your discord guild.
+
+### Sync Player Pseudo
+
+Never be confused about who is who, you can sync the pseudo of your discord guild with the pseudo of your server, this way you can give the same pseudo to a player on your server and on your discord guild.
+
+### Logs
+
+Keep track of what's happening on your server with the logs, in the dashboard or in a channel of your discord guild, you can see everything that is happening on your server, like the player connection, kills, object spawn, etc...
+
+### Errors Report
+
+Don't miss any error client or server side, you can see the error in the dashboard, this way you can fix the error before it's too late.
+
+### Screenshots Relay
+
+Create biger interaction with your players, you can take a screenshot and send it to your discord guild, this way you can share the best moment of your server.
+
+### Ranking List
+
+You can chose to set your server public, this way you can be listed on the server ranking, this way you can attract more players to your server. To boost him use /vote command to get more visibility.
+
+### RCON from Discord
+
+Sometimes you don't have access to your server console, no problem, you can use the bot to run commands on your server from your discord guild. Only discord Admins with superadmin rank can use this feature.
+
+Feature List : Guild Links, Guild Auto Role, Player Screnshot, Role Syncronization, Pseudo Syncronization, Sanction Syncronization, Server Ranking, Guild Verification, Server Maintenance, Player Leaderboard, Player Statistics, Server Players Database, Server Status, Server Logs, Discord Rcon, Chat Bridge

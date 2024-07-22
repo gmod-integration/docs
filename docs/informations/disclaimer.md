@@ -18,25 +18,7 @@ Before proceeding with the integration process, it's crucial to understand key d
 
 In the unfortunate event that our infrastructure or services are compromised, it's essential to consider the potential far-reaching consequences, such as unauthorize access with total control over your Garry's Mod server and Discord Guild.
 
-To limit the impact of a potential compromise, we have implemented a series of security measures to protect your data and infrastructure.
-
-In the event of a compromise, we can:
-
-- Disable the Discord Bot.
-- Reset the Discord Bot Token.
-- Disable the Gmod Integration API.
-- Disable the Gmod Integration Websocket.
-- Disable the Gmod Integration Admin Panel.
-- Reset all server token.
-- Kill all user session.
-
-In case of a major compromise, we can:
-
-- Delete production database.
-- Delete production server.
-- Remove DNS record.
-
-We take the security of our infrastructure seriously and implement robust measures to prevent unauthorized access. However, it's important to recognize that no system can be entirely immune to determined attackers. We encourage server administrators to stay vigilant, keep their systems up-to-date with security patches, and monitor for any unusual activities.
+To limit the impact of a potential compromise, we have implemented a series of security measures and kill switches to prevent unauthorized access and data breaches.
 
 ## Disaster Recovery
 
