@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 # Installation
@@ -25,7 +25,7 @@ Move the Bot Role to the top of the role list, so it can manage the other roles.
 
 ## Garrry's Mod
 
-### Add to Server Collection
+### Add Content to Workshop Collection
 
 Create or add the [workshop content of gmod-integratoin](https://gmod-integration.com/workshop) to your workshop server collection.
 

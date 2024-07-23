@@ -5,26 +5,17 @@ slug: /
 
 # Introduction
 
-:::important
-Please note that this documentation is not complete, we are working on it, if you have any questions, you can ask them on our [discord](https://gmod-integration.com/discord). We have made a [important](/informations/disclaimer) page, it's contain security potential issue, disclaimer, etc...
-:::
-
-## What is Gmod Integration ?
-
-Gmod Integration is a Service that allows you to connect your Garry's Mod server to your Discord server. It allows you to synchronize your players' nicknames, chat, add verify system, and server status with your Discord to keep your community in touch, it's a great way to keep your community active and engaged. We allready have more then 12 000 users on more then 120 servers, will you be the next?
+Gmod Integration is a powerful Discord Bot that connects your Garry's Mod server to Discord. It syncs player nicknames, chat, verification systems, and server status. Enhance community engagement and streamline management. Join 47,000+ users benefiting from this easy-to-use, customizable service.
 
 ## Features
 
-- Player Stat
 - Server Status
-- Pseudo Synchronization
-- Roles Synchronization
-- Chat Synchronization
-- Player Verification via Website
-- Multilanguage
-- No Hosting
-- Server Ban
-- ... and more
+- Nickname Sync
+- Chat Relay
+- Verification System
+- Role Sync
+- Error Reports
+- And more !
 
 Check the [features](/features/guild_links) page for more information.
 
