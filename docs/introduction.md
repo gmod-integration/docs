@@ -9,15 +9,41 @@ Gmod Integration is a powerful Discord Bot that connects your Garry's Mod server
 
 ## Features
 
-- Server Status
-- Nickname Sync
-- Chat Relay
-- Verification System
-- Role Sync
-- Error Reports
-- And more !
+🪪 - Players Profile
 
-Check the [features](/features/guild_links) page for more information.
+📊 - Players Statistics
+
+🏆 - Players Leaderboard
+
+🔗 - Guilds Links
+
+✅ - Guilds Verifications
+
+🏹 - Guilds Auto Roles
+
+📋 - Servers Status
+
+📋 - Servers Status Buttons
+
+💬 - Servers Chat Relay
+
+🔍 - Servers Players Database
+
+🏹 - Servers Sync Role / User Group
+
+🏹 - Servers Sync Player Pseudo
+
+🔮 - Servers Logs
+
+💥 - Servers Error Reports
+
+📷 - Servers Screenshots Relay
+
+🗳️ - Servers Ranking List
+
+📤 - Servers RCON from Discord
+
+✨ - And more to come...
 
 ## Premium
 
@@ -25,7 +51,7 @@ To help us to maintain the service, we have a premium system, you can check the 
 
 ## How to use it?
 
-Follow the [getting-started](/getting-started/installation) page to install and setup the discord bot and the gmod addon. And to personalize our service, you can follow the [guide](/guide/connect_server) page.
+Follow the [getting-started](/getting-started/installation) page to install and setup the discord bot and the gmod addon.
 
 ## Support
 
