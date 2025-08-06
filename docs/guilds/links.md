@@ -6,14 +6,14 @@ Guilds Links are like shortcuts to your guilds. If someone askin for the collect
 
 To use the links, you can use the `/links` command followed by the alias of the link you want to use.
 
-![alt text](image-3.png)
+![Links command usage](links-command-usage.png)
 
-![alt text](image-4.png)
+![Links response display](links-response-display.png)
 
 ## Configuration
 
 Links are composed of a `alias`, `url` and `active` field. The `alias` is the command that will be the displayed name of the link, the `url` is the link that will be sent when the command is executed and the `active` field is a boolean that will enable or disable the link.
 
-![alt text](image.png)
+![Links dashboard configuration](links-dashboard-config.png)
 
-![alt text](image-1.png)
+![Links configuration form](links-configuration-form.png)

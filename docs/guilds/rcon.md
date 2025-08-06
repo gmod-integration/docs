@@ -6,11 +6,11 @@ The `/rcon` command is a command that allows you to send RCON commands to your s
 
 To use the rcon command, you can use the `/rcon` command followed by the command you want to send to the server.
 
-![alt text](image-10.png)
+![RCON command interface](rcon-command-interface.png)
 
-![alt text](image-11.png)
+![RCON command execution](rcon-command-execution.png)
 
-![alt text](image-12.png)
+![RCON command result](rcon-command-result.png)
 
 ## Requirements
 

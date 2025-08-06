@@ -6,6 +6,6 @@ Profile is use to display the Gmod Integration profile of a user.
 
 To use the profile, you can use the `/profile` command followed by the user mention or the user id.
 
-![alt text](image-5.png)
+![User profile statistics](profile-user-stats.png)
 
-![alt text](image-6.png)
+![Profile detailed information](profile-detailed-info.png)

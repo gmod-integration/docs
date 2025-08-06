@@ -8,13 +8,13 @@ To use the vote, you can use the `/vote` command followed by the server.
 
 You can vote every 3 hours, and vote are valid for 1month.
 
-![alt text](image-13.png)
+![Vote command interface](vote-command-interface.png)
 
-![alt text](image-14.png)
+![Vote website redirect](vote-website-redirect.png)
 
-![alt text](image-15.png)
+![Vote success confirmation](vote-success-confirmation.png)
 
-![alt text](image-16.png)
+![Vote cooldown message](vote-cooldown-message.png)
 
 ## Options
 

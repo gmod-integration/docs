@@ -6,6 +6,6 @@ Check if your guild is premium or not.
 
 To use the premium command, you can use the `/premium` command.
 
-![alt text](image-21.png)
+![Premium status active](premium-status-active.png)
 
-![alt text](image-22.png)
+![Premium status inactive](premium-status-inactive.png)

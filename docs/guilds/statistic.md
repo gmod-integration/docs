@@ -6,11 +6,11 @@ The `/statistic` command is used to display the statistics of the server. The st
 
 To use the statistics, you can use the `/statistic` command followed by the category of the statistics you want to display.
 
-![alt text](image-8.png)
+![Server statistics display](statistic-server-stats.png)
 
-![alt text](image-7.png)
+![General statistics display](statistic-general-stats.png)
 
-![alt text](image-9.png)
+![User statistics display](statistic-user-stats.png)
 
 ## Options
 

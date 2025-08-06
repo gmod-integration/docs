@@ -6,9 +6,9 @@ The leaderboard is a feature that allows you to see the best players on your ser
 
 To use the leaderboard, you can use the `/leaderboard` command followed by the category of the leaderboard you want to display.
 
-![alt text](image-23.png)
+![Leaderboard command interface](leaderboard-command-interface.png)
 
-![alt text](image-24.png)
+![Leaderboard results display](leaderboard-results-display.png)
 
 ## Options
 

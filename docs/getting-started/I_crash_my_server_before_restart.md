@@ -28,8 +28,8 @@ Next go in your hosting panel and add a task to run the command `graceful_shutdo
 
 ### Pterodactyl
 
-![alt text](feghy.png)
+![alt text](ptero-task-example.png)
 
 ### Physgun Hosting
 
-![alt text](phyts.png)
+![alt text](physgun-task-example.png)
