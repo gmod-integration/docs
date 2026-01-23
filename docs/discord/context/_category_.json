@@ -1,5 +1,5 @@
 {
-  "label": "Context",
+  "label": "Context Menu",
   "position": 25,
   "link": {
     "description": "Information about the context in which commands are executed."
