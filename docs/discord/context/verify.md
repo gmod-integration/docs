@@ -1,12 +1,12 @@
-# /verify
+# verify
 
 The verify command is used to verify a user's identity. This will trigger the verification process configured on the dashboard.
 
 ## Use
 
-To use the verify command, you can use the `/verify` command followed by the user mention or the user id.
+To use the profile, you can right click on the user, go to app and click `verify`.
 
-![Verify command interface](verify-command-interface.png)
+![Verify context](verify-context.png)
 
 ![Verify process steps](verify-process-steps.png)
 
