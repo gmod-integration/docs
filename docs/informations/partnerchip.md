@@ -4,6 +4,12 @@ sidebar_position: 4
 
 # Partnerchip
 
+:::info
+
+Partnerchip application are currently closed. We will reopen them soon.
+
+:::
+
 ## Why a partnerchip program ?
 
 Partnerchip program our a way to help us to grow up and to help you to grow up. Ben partnair with us, offering you the premium version of our service for free. You have a direct contact with us, you can ask us anything, we will help you. We will help you to setup the service, to configure it, to use it, etc...
