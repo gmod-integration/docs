@@ -6,11 +6,11 @@ The verify command is used to verify a user's identity. This will trigger the ve
 
 To use the verify command, you can use the `/verify` command followed by the user mention or the user id.
 
-![alt text](image-20.png)
+![Verify command interface](verify-command-interface.png)
 
-![alt text](image-19.png)
+![Verify process steps](verify-process-steps.png)
 
-![alt text](image-18.png)
+![Verify completion message](verify-completion-message.png)
 
 ## Options
 

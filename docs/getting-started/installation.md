@@ -15,13 +15,13 @@ sidebar_position: 1
 
 Add the [Gmod Integration Bot](https://gmod-integration.com/invite) to your Discord Guild.
 
-![Alt text](image-1.png)
+![Alt text](install-bot.png)
 
 ### Move the Bot Role
 
 Move the Bot Role to the top of the role list, so it can manage the other roles.
 
-![Alt text](image.png)
+![Alt text](role.png)
 
 ## Garrry's Mod
 
@@ -29,4 +29,4 @@ Move the Bot Role to the top of the role list, so it can manage the other roles.
 
 Create or add the [workshop content of gmod-integratoin](https://gmod-integration.com/workshop) to your workshop server collection.
 
-![Alt text](image-2.png)
+![Alt text](add-to-collection.png)
