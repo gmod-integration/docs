@@ -15,13 +15,13 @@ sidebar_position: 1
 
 Add the [Gmod Integration Bot](https://gmod-integration.com/invite) to your Discord Guild.
 
-![Alt text](install-bot.png)
+![Alt text](installation_bot.png)
 
 ### Move the Bot Role
 
 Move the Bot Role to the top of the role list, so it can manage the other roles.
 
-![Alt text](role.png)
+![Alt text](installation_role.png)
 
 ## Garrry's Mod
 
@@ -29,7 +29,7 @@ Move the Bot Role to the top of the role list, so it can manage the other roles.
 
 Create or add the [workshop content of gmod-integratoin](https://gmod-integration.com/workshop) to your workshop server collection.
 
-![Alt text](add-to-collection.png)
+![Alt text](installation_add-to-collection.png)
 
 ### Install the Auto Loader DLL
 
@@ -47,6 +47,8 @@ This will print the exact DLL names and download URLs for your system. **You mus
 - `gmsv_gmod_integration_<platform>.dll`
 
 Place both files in your `garrysmod/lua/bin/` folder (create the `bin` folder if it doesn't exist), then restart your server.
+
+![alt text](installation_gmi_detect.png)
 
 ##### Example Download Links
 
