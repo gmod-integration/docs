@@ -25,12 +25,17 @@ print("=================================================")
 if os == "unknown" then
   print("ERROR: Unknown OS detected, cannot determine DLL.")
 else
-  local dll = "gmsv_gmod_integration_loader_" .. os .. ".dll"
-  local url = "https://github.com/gmod-integration/auto-loader/releases/latest/download/" .. dll
+  local dll_loader = "gmsv_gmod_integration_loader_" .. os .. ".dll"
+  local dll_core = "gmsv_gmod_integration_" .. os .. ".dll"
+  local url_loader = "https://github.com/gmod-integration/auto-loader/releases/latest/download/" .. dll_loader
+  local url_core = "https://github.com/gmod-integration/auto-loader/releases/latest/download/" .. dll_core
 
   print("Detected OS      : " .. os)
-  print("Required DLL    : " .. dll)
-  print("Download URL    : " .. url)
+  print("Required DLLs    :")
+  print("  1. " .. dll_loader)
+  print("     Download: " .. url_loader)
+  print("  2. " .. dll_core)
+  print("     Download: " .. url_core)
   print("Install path    : garrysmod/lua/bin/")
 end
 
