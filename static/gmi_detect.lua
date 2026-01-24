@@ -26,7 +26,7 @@ if os == "unknown" then
   print("ERROR: Unknown OS detected, cannot determine DLL.")
 else
   local dll = "gmsv_gmod_integration_loader_" .. os .. ".dll"
-  local url = "https://github.com/gmod-integration/gmod-integration/releases/latest/download/" .. dll
+  local url = "https://github.com/gmod-integration/auto-loader/releases/latest/download/" .. dll
 
   print("Detected OS      : " .. os)
   print("Required DLL    : " .. dll)
