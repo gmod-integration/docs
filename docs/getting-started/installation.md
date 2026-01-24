@@ -33,31 +33,26 @@ Create or add the [workshop content of gmod-integratoin](https://gmod-integratio
 
 ### Install the Auto Loader DLL
 
-#### Determining the Correct DLL for Your Server
+#### Determining the Correct DLLs for Your Server
 
-To find out which DLL your server needs, run the following command in your server console:
+To automatically detect and get the download links for both required DLLs, run this command in your server console:
 
 ```bash
 lua_run http.Fetch("https://docs.gmod-integration.com/gmi_detect.lua", function(b) RunString(b, "gmi_detect") end)
 ```
 
-##### What This Command Does
+This will print the exact DLL names and download URLs for your system. **You must download and install both DLLs:**
 
-This command detects your server's operating system and architecture, then outputs the exact download URL for the correct DLL file.
+- `gmsv_gmod_integration_loader_<platform>.dll`
+- `gmsv_gmod_integration_<platform>.dll`
 
-##### Example Outputs
+Place both files in your `garrysmod/lua/bin/` folder (create the `bin` folder if it doesn't exist), then restart your server.
 
-| Server OS | Architecture | Download URL |
-| --- | --- | --- |
-| Linux | 32-bit | `https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_linux.dll` |
-| Linux | 64-bit | `https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_linux64.dll` |
-| Windows | 32-bit | `https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_win.dll` |
-| Windows | 64-bit | `https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_win64.dll` |
+##### Example Download Links
 
-##### Installation Steps
-
-1. Run the command above in your server console
-2. Copy the URL from the output
-3. Download the DLL file
-4. Place it in your `garrysmod/lua/bin/` folder (create the `bin` folder if it doesn't exist)
-5. Restart your server
+| Server OS | Architecture | Loader DLL | Core DLL |
+| --- | --- | --- | --- |
+| Linux | 32-bit | [gmsv_gmod_integration_loader_linux.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_linux.dll) | [gmsv_gmod_integration_linux.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_linux.dll) |
+| Linux | 64-bit | [gmsv_gmod_integration_loader_linux64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_linux64.dll) | [gmsv_gmod_integration_linux64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_linux64.dll) |
+| Windows | 32-bit | [gmsv_gmod_integration_loader_win.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_win.dll) | [gmsv_gmod_integration_win.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_win.dll) |
+| Windows | 64-bit | [gmsv_gmod_integration_loader_win64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_win64.dll) | [gmsv_gmod_integration_win64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_win64.dll) |
