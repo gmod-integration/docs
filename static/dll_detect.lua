@@ -35,7 +35,6 @@ else
 
   print("\n\27[1;33m GWSockets DLL :\27[0m")
   print(" " .. gwsockets_dll)
-  print("   → " .. url_gwsockets)
 
   print("\n\27[33m[IMPORTANT]\27[0m Place the DLL in: \27[4mgarrysmod/lua/bin/\27[0m\n")
   print("\27[2mIf the 'bin' folder does not exist, create it manually.\27[0m\n")
