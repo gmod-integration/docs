@@ -31,30 +31,27 @@ Create or add the [workshop content of gmod-integratoin](https://gmod-integratio
 
 ![Alt text](installation_add-to-collection.png)
 
-### Install the Auto Loader DLL
+### DLL
 
-#### Determining the Correct DLLs for Your Server
-
-To automatically detect and get the download links for both required DLLs, run this command in your server console:
+To automatically detect and get the download links for the required DLL, run this command in your server console:
 
 ```bash
-lua_run http.Fetch("https://docs.gmod-integration.com/gmi_detect.lua", function(b) RunString(b, "gmi_detect") end)
+lua_run http.Fetch("https://docs.gmod-integration.com/dll_detect.lua", function(b) RunString(b, "dll_detect") end)
 ```
 
-This will print the exact DLL names and download URLs for your system. **You must download and install both DLLs:**
+This will print the exact DLL name and download URL for your system. **You must download and install the DLL:**
 
-- `gmsv_gmod_integration_loader_<platform>.dll`
-- `gmsv_gmod_integration_<platform>.dll`
+- `gmsv_gwsockets_<platform>.dll`
 
-Place both files in your `garrysmod/lua/bin/` folder (create the `bin` folder if it doesn't exist), then restart your server.
+Place the dll files in your `garrysmod/lua/bin/` folder (create the `bin` folder if it doesn't exist), then restart your server.
 
-![alt text](installation_gmi_detect.png)
+![alt text](installation_dll_detect.png)
 
-##### Example Download Links
+### Example Download Links
 
-| Server OS | Architecture | Loader DLL | Core DLL |
-| --- | --- | --- | --- |
-| Linux | 32-bit | [gmsv_gmod_integration_loader_linux.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_linux.dll) | [gmsv_gmod_integration_linux.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_linux.dll) |
-| Linux | 64-bit | [gmsv_gmod_integration_loader_linux64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_linux64.dll) | [gmsv_gmod_integration_linux64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_linux64.dll) |
-| Windows | 32-bit | [gmsv_gmod_integration_loader_win.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_win.dll) | [gmsv_gmod_integration_win.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_win.dll) |
-| Windows | 64-bit | [gmsv_gmod_integration_loader_win64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_loader_win64.dll) | [gmsv_gmod_integration_win64.dll](https://github.com/gmod-integration/auto-loader/releases/latest/download/gmsv_gmod_integration_win64.dll) |
+| Server OS | Architecture | GWSockets DLL                                                                                                         |
+| --------- | ------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Linux     | 32-bit       | [gmsv_gwsockets_linux.dll](https://github.com/FredyH/GWSockets/releases/latest/download/gmsv_gwsockets_linux.dll)     |
+| Linux     | 64-bit       | [gmsv_gwsockets_linux64.dll](https://github.com/FredyH/GWSockets/releases/latest/download/gmsv_gwsockets_linux64.dll) |
+| Windows   | 32-bit       | [gmsv_gwsockets_win32.dll](https://github.com/FredyH/GWSockets/releases/latest/download/gmsv_gwsockets_win32.dll)     |
+| Windows   | 64-bit       | [gmsv_gwsockets_win64.dll](https://github.com/FredyH/GWSockets/releases/latest/download/gmsv_gwsockets_win64.dll)     |
