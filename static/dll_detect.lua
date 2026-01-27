@@ -19,7 +19,7 @@ local os = detectOS()
 
 
 print("\n\27[36m==============================================================\27[0m")
-print("\27[1;36m   Gmod Integration – Native Loader Detection & Instructions   \27[0m")
+print("\27[1;36m    Gmod Integration – Native DLL Detection & Instructions    \27[0m")
 print("\27[36m==============================================================\27[0m")
 print("\27[2mDocumentation: https://docs.gmod-integration.com/garrysmod/getting-started/installation\27[0m")
 print("\27[36m--------------------------------------------------------------\27[0m\n")
