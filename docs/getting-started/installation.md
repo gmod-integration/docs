@@ -45,7 +45,7 @@ This will print the exact DLL name and download URL for your system. **You must 
 
 Place the dll files in your `garrysmod/lua/bin/` folder (create the `bin` folder if it doesn't exist), then restart your server.
 
-<!-- ![alt text](installation_dll_detect.png) -->
+![alt text](installation_dll_detect.png)
 
 ### Example Download Links
 
