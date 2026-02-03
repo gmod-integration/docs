@@ -18,8 +18,23 @@ On the same page now click on server you just created, you will see the Informat
 
 ## Add Server Token & ID
 
-Join your gmod server with a `superadmin` account click on the `GM Integration` button in the context menu or run the client command `gmi_admin` to open the admin panel, once you are on the admin panel copy paste the token & id in the `Authentification` section, if token and id are correct you will see a message in the chat with the name of your server.
+Go into the server console and run the following commands to add your server token & id:
 
-![Alt text](configuration_gmod-integration-extension.png)
+```bash
+gmod-integration config set id YOUR_SERVER_ID
+gmod-integration config set token YOUR_SERVER_TOKEN
+```
 
-![alt text](configuration_gmod-integration-server-ig-config.png)
+Your server will now attempt to connect to Gmod Integration and if everything is correct you should see a success message with your server name and id in the console.
+
+Example:
+
+```bash
+gmod-integration config set id lZWbHrHJk3
+ | 14:12:51 | Gmod Integration | Setting Saved
+gmod-integration config set token JbKuA0goRKQO6cYg
+ | 14:13:03 | Gmod Integration | Setting Saved
+ | 14:13:04 | Gmod Integration | Congratulations your server is now connected to Gmod Integration
+ | 14:13:04 | Gmod Integration | Server Name: New Gmod Server
+ | 14:13:04 | Gmod Integration | Server ID: lZWbHrHJk3
+```
