@@ -4,8 +4,8 @@ In the status section, you can send a auto-refreshing message displaying the cur
 
 You can also add custom buttons under the status message with custom actions. eg: add a button "Workshop" that open the server's workshop collection in the browser, or add a button "Connect" that send the server's ip address in the chat when clicked to make it easier for players to connect to the server.
 
-![alt text](image-16.png)
+![alt text](status-1.png)
 
-![alt text](image-4.png)
+![alt text](status-2.png)
 
-![alt text](image-3.png)
+![alt text](status-3.png)

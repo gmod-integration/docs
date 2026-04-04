@@ -6,4 +6,4 @@ You can also filter the logs by type and search for specific events. And Relay L
 
 You can also add trigger with custom actions to do when a specific event happen. eg: send a message in a discord channel when a player is sending more than $5M to another player to detect potential money duplication ect.
 
-![alt text](image-13.png)
+![alt text](logs.png)

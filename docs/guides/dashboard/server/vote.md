@@ -1,3 +1,3 @@
 # Vote
 
-![alt text](image-9.png)
+![alt text](vote.png)

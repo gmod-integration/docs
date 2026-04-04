@@ -1,5 +1,5 @@
 # Screenshots
 
-![alt text](image-8.png)
+![alt text](screenshots-1.png)
 
-![alt text](image-7.png)
+![alt text](screenshots-2.png)
