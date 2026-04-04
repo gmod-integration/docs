@@ -7,5 +7,3 @@ You can also add custom buttons under the status message with custom actions. eg
 ![alt text](status-1.png)
 
 ![alt text](status-2.png)
-
-![alt text](status-3.png)
